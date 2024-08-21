@@ -1,0 +1,411 @@
+@media (max-width: 600px) {
+    .logo {
+        display: none !important;
+    }
+   
+}
+@media (max-width: 750px) {
+    .contenth {
+       font-size: 20px !important;
+    }
+    input{
+    width: 200px !important;
+    }
+   
+}
+@media (max-width:  600px) {
+    .logo {
+      display: none;
+    }
+@media (max-width: 600px) {
+
+    padding-top: 1.5rem;
+}
+  
+    header {
+      justify-content: center;
+      padding-inline: 0;
+    }
+  
+    .links , .title1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+  }
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body, html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ a {
+    text-decoration: none;
+    margin-left: 1.8rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding-inline: 1.2rem;
+    padding-block: 0.4rem;
+    display: inline-block;
+    transition: 0.2s;
+    font-size:0.9rem ;
+    position: relative;
+}
+
+
+
+a:active {
+    scale: 0.9;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 5rem;
+    padding-top: 1.5rem;
+}
+
+.logo .fa-brands {
+    font-size: 2rem;
+    margin-right: 0.2rem;
+    color: rgb(23, 130, 217);
+}
+.logo h3{
+color: white;
+}
+.logo{
+display: flex;
+}
+
+a:hover {
+    
+    transition: 0.5s;
+    color: rgb(23, 130, 217);
+}
+
+.cont{
+background-image: url(thumb-1920-1349603.jpeg);
+height: 100vh;
+background-attachment: fixed;
+}
+
+
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20%;
+}
+.contenth{
+color: #f5f5f5;
+font-weight: bold;
+font-size: 2.6rem;
+}
+
+input{
+height: 40px;
+width: 400px;
+border-radius: 10px;
+outline: none;
+border: none;
+margin-inline: 10px;
+font-size: 20px;
+border: solid 1px black;
+background-color: rgba(240, 248, 255, 0.437);
+padding-inline: 10px;
+}
+
+.divv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.fh1{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    border: none;
+  background-color: rgb(23, 130, 217);;
+    transition: 0.2s;
+    }
+
+    button:hover{
+    cursor: pointer;
+    }
+    button:active {
+scale: 0.9;
+    }
+
+    .mov{
+        color: rgb(23, 130, 217);
+    }
+    .links span{
+    background-color: aliceblue;
+    }
+
+    .card .poster img{
+        width: 100%;
+        }
+        
+        .sex{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:100px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:60px 20px;
+        padding-bottom: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+        
+        .seven{
+            background-image: linear-gradient(black , rgba(64, 112, 189, 0.719));
+        }
+
+        .title1{
+        color: white;
+        display:flex;
+        justify-content: center;
+        padding-top:20px;
+        text-align: center;
+        }
+        .title1 a{
+            font-size: 1rem;
+
+            border-radius: 20px;
+            transition: 0.5s;
+            margin-left: 50px;
+            background-color: rgb(23, 130, 217);
+        }
+        .title1 a:hover{
+        background-color: #105072;
+        color: #fff;
+        border: #105072;
+        }
+        .layr{
+        position: absolute;
+        bottom: -100;
+        left: 0;
+        height: 50%;
+        background-image: linear-gradient(#0000ff47 , #00000078);
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        }
+        .save button{
+        width: 50%;
+        margin-top: 15px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        background-color:#105072;
+        border: none;
+        color: #fff;
+        transition: 0.5s;
+        cursor: pointer;
+        font-weight: 600;
+        }
+        button:hover{
+            background-color:#105072a5;
+        }
+        .layr p{
+        color: #fff;
+        text-transform: capitalize;
+        }
+        
+        .card:hover .layr{
+        bottom: 0;
+        }
+        .layr .now{
+        width: 50px;
+        text-align: center;
+        font-size: 14px;
+        }
+        
+        .layr .now:hover{
+        color: red;
+        }
+
+        .card{
+            width: 300px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            transition: 1s;
+            border-radius: 15px;
+            transition: 0.5s;
+            }
+            .card:hover{
+            scale: 0.9;
+            }
+            
+            .pos{
+            position: absolute;
+          margin: 2px 2px;
+            width: 35px;
+            height: 35px;
+            right: 0;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 10px;
+            background-color: #1782d9;;
+            color: #fff;
+            }
+
+            .end-film{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+           align-items: center;
+           background-color: #00000057;
+           border-radius: 15px;
+           padding-inline: 1.6rem;
+           position: relative;
+           overflow: hidden;
+            }
+            @media(max-width: px){
+            .end-film img{
+            display: none;
+            }
+            .end-film{
+            padding-block: 20px;
+            }
+            .end-film{
+             .logo-end{
+            display: none;
+            }
+           .left h3{
+            color: #eae9e9d9;
+            }
+            .left p{
+            font-size: 1.2rem;
+            text-align: center;
+            }
+            .BTN-LEFT{
+            text-align: center;
+            }
+            .BTN-LEFT button{
+            width: 200px;
+            font-size: 10px;
+
+            }
+            }
+            }
+        
+            @media(max-width: 500px){
+            .end-film img{
+            display: none;
+            }
+            .end-film{
+            padding-left: 60px;
+            padding-block: 20px;
+            }
+            .end-film{
+             .logo-end{
+            display: none;
+            }
+
+            .left p{
+            font-size: 1.2rem;
+            text-align: center;
+            }
+            .BTN-LEFT{
+            text-align: center;
+            }
+            .BTN-LEFT button{
+            width: 200px;
+            font-size: 10px;
+
+            }
+            }
+            }
+            .logo-end{
+            position: absolute;
+            top: 0;
+            font-size: 2.2rem;
+            color: #1782d9;
+            }
+
+            .end-film p{
+            text-transform: capitalize;
+            font-size: 1.8rem;
+            font-weight: 400;
+            }
+            .end-film span{
+                color: #1782d9;;
+                font-weight: 900;
+            }
+            .end-film h3{
+            text-align: center;
+            padding-top: 1rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.759);
+            }
+            .BTN-LEFT{
+        padding-top: 1.2rem;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       gap:1rem;
+            }
+            .BTN-LEFT button{
+            display: block;
+            width: 20rem;
+            height: 2.5rem;
+            color: #fff;
+            background-color: black;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border-radius: 5px;
+            }
+            .BTN-LEFT span{
+            color: #1782d9;
+            }
+            .BTN-LEFT button:hover{
+           background-color:rgba(0, 0, 0, 0.712);
+            }
+            .end-film .right{
+            margin-left: 10rem;
+            }
+            .cont-foot{
+            background-color: #000000;
+            color: #fff;
+            font-size: 1rem;
+            height:50px;
+            text-align: center;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            }
+            .cont-foot .Ahmed{
+            color: #1782d9;
+            }
+
